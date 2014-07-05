@@ -19,3 +19,6 @@ less
 accounts-base
 accounts-password
 accounts-facebook
+bootstrap-3
+iron-router
+accounts-ui-bootstrap-3

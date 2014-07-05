@@ -1,19 +1,16 @@
 {
-    "name": "polk-meteor",
-    "description": "Backend for polk project",
-    "homepage": "https://github.com:jonandersen/polk-meteor.git",
-    "author": "Jon Andersen",
-    "version": "0.1.0",
-    "git": "https://github.com:jonandersen/polk-meteor.git",
-    "packages": {
-        "velocity": {
-            "-path": "../velocity"
-        },
-        "mocha-web-velocity": {},
-        "jasmine-unit": {
-            "-path": "../jasmine-unit"
-        },
-        "velocity-html-reporter": {},
-        "moment": {}
-    }
+  "packages": {
+    "velocity": {
+      "-path": "../velocity"
+    },
+    "mocha-web-velocity": {},
+    "jasmine-unit": {
+      "-path": "../jasmine-unit"
+    },
+    "velocity-html-reporter": {},
+    "moment": {},
+    "iron-router": {},
+    "accounts-ui-bootstrap-3": {},
+    "bootstrap-3": {}
+  }
 }
