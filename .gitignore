@@ -1,3 +1,10 @@
 packages/*
 tests/a1-package-stubs.js
 smart.lock
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store

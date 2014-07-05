@@ -1,10 +1,10 @@
 {
     "name": "polk-meteor",
     "description": "Backend for polk project",
-    "homepage": "https://github.com/xolvio/jasmine-unit",
-    "author": "Sam Hatoum",
-    "version": "0.1.19",
-    "git": "https://github.com/xolvio/jasmine-unit.git",
+    "homepage": "https://github.com:jonandersen/polk-meteor.git",
+    "author": "Jon Andersen",
+    "version": "0.1.0",
+    "git": "https://github.com:jonandersen/polk-meteor.git",
     "packages": {
         "velocity": {
             "-path": "../velocity"
