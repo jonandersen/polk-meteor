@@ -1,11 +1,21 @@
 <template name="messageNew">
+    <div class="row">
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    </div>
+    <form class="main">
+        <div class="form-group">
+            <label class="control-label" for="message">Message</label>
+            <div class="controls">
+                <textarea class="form-control" rows="3" name="message" type="text" value=""></textarea>
+            </div>
+        </div>
 
-    <h2>messagesList</h2>
-    <ul>
-        {{#each messages}}
-        <li>{{message}}</li>
-        {{/each}}
-    </ul>
-
-
+        <div class="form-group">
+            <div class="controls">
+                <input type="submit" value="Submit" class="btn btn-primary"/>
+            </div>
+        </div>
+    </form>
 </template>
