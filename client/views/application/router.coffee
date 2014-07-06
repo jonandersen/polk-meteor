@@ -6,5 +6,8 @@ Router.map ->
   @route 'messages',
           path: '/messages'
           controller: "MessagesListController"
+  @route  'messageNew',
+          path: '/message/new'
+          controller: 'MessageNewController'
 
 
