@@ -15,3 +15,4 @@
 #Template.player.events
 #  'click': ->
 #    Session.set 'selected_player', @_id
+

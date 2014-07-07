@@ -1,16 +1,16 @@
 Template.messageNew.events 'submit form': (e) ->
   e.preventDefault()
 
-  getPosition (error, lat, lon) ->
+  getPosition (error, lng, lat) ->
     if(error)
-      console.log("Failed to get posion")
+      console.log("Failed to get postion")
       return
 
     message = {
       message: $(e.target).find('[name=message]').val()
-      position: {
-        lat: lat
-        lon: lon
+      location: {
+        type: 'Point'
+        coordinates:[lng, lat]
       }
     }
     Meteor.call 'postMessage', message, (error, id) ->

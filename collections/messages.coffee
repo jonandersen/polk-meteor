@@ -12,10 +12,10 @@ Meteor.methods
     if(!postAttributes.message)
       throw new Meteor.Error(422, 'Please fill in a message')
 
-    message = _.extend(_.pick(postAttributes, 'message', 'position'), {
+    message = _.extend(_.pick(postAttributes, 'message', 'location'), {
       userId: user._id,
       author: user.username,
-      submitted: new Date().getTime(),
+      submitted: new Date().getTime()
     })
 
     messageId = Messages.insert(message)
